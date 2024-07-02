@@ -1,0 +1,1 @@
+print('Fuinciono!!! Modulo fora das Pastas!!!')
