@@ -22,6 +22,24 @@ caminho_arquivo = 'F:\\Udemy\\Aprendendo Caminhos no python\\'
 caminho_arquivo += 'aula186.txt'
 # arquivo = open(caminho_arquivo, 'w')
 # arquivo.close()
-with open(caminho_arquivo, 'w') as arquivo:
-    print('Ola mundo')
-    print('Seu arquivo vai ser fechado')
+
+# with open(caminho_arquivo, 'w+') as arquivo:
+#     arquivo.write('Linha 1\n')
+#     arquivo.write('Linha 2\n')
+#     arquivo.writelines(
+#         ('Linha 3 \n', 'Linha 4\n')
+#     )    
+#     arquivo.seek(0,0)
+#     print(arquivo.read())
+#     print('readlines')
+#     for linha in arquivo.readlines():
+#         print(linha.strip())
+
+# print('#' * 10)
+
+# with open(caminho_arquivo, 'r') as arquivo:
+#     print(arquivo.read())
+
+with open(caminho_arquivo, 'w+') as arquivo:
+    arquivo.write('Linha 1\n')
+    arquivo.write('Linha 2\n')
