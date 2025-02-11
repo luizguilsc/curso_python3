@@ -1,0 +1,5 @@
+Laravel
+Fazer o HTML
+MVC
+config('app.url')
+MVT o que vamos usar
