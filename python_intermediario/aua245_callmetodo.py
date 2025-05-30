@@ -1,0 +1,13 @@
+# Método especial __call__
+# callable é algo que pode ser executado com parênteses
+# Em classes normais, __call__ faz a instancia de uuma classe "callable".
+
+class CallMe:
+    def __init__(self,phone):
+        self.phone = phone
+
+    def __call__(self, nome):
+        print(nome,'Chamando, ', self.phone)
+
+call1 = CallMe('123456768909')
+call1('Luiz esta')
